@@ -1,0 +1,22 @@
+@import 'variables.module.scss';
+
+//!Nadpisy
+@mixin podNadpis{
+    color: $black-color;
+    font-size: $ternary-text*2;
+}
+@mixin Nadpis{
+    
+    font-size: $secondary-text*2;
+}
+@mixin obsahText{
+    color: $black-color;
+    font-size: $ternary-text;
+    text-align: left;
+}
+
+//Obsah-text/image
+@mixin ContentText{
+    display: flex;
+    flex-direction: column;
+}

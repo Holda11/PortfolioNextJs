@@ -1,0 +1,64 @@
+@import 'variables.module.scss';
+@import 'classes.module.scss';
+
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  html,
+  body {
+    max-width: 100vw;
+    overflow-x: hidden;
+  
+  }
+
+  a {
+    color: $black-color;
+    text-decoration: none;
+  }
+  main{
+    padding: 12px;
+    margin: 12px;
+  }
+
+  nav{
+    background-color: transparent;
+    max-width: 100vw;
+    max-height: 70px;
+    display: flex;
+    ul{
+      
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+      li{
+            color: $black-color;
+            list-style: none;
+            letter-spacing: 2px;
+            font-size: $ternary-text;
+            padding: 12px;
+            justify-self: flex-end;
+            h1{
+                font-size: $primary-text;
+                justify-self: start;
+                span{
+                  color: $primary-color;
+                }
+            }
+        }
+    }
+}
+  footer{
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width:100vw ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
